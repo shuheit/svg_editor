@@ -1,0 +1,45 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.button {
+  overflow: hidden;
+  list-style:none;
+  display:block;
+  -webkit-padding-start: 0px !important;
+  width:50%;
+  height:auto;
+  margin: 10px 25% 10px 25%;
+}
+.button li {
+  float: left;
+  margin-right: 4px;
+}
+.button iframe {
+  margin: 0 !important;
+}
+
+#importSVG {
+  width: 100%;
+}
+#exportSVG {
+  width: 100%;
+}
+#default {
+  width: 100%;
+}
+
+#main {
+    display:block;
+    width:50%;
+    height:500px;
+    margin: 0px 25%;
+} 
+
+#canvas {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
